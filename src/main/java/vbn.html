@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Questionnaire</title>
+</head>
+<body>
+<form action="your_server_script.php" method="post" enctype="application/x-www-form-urlencoded">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="surname">Surname:</label>
+  <input type="text" id="surname" name="surname"><br><br>
+
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age"><br><br>
+
+  <fieldset>
+    <legend>Question 1:</legend>
+    <input type="radio" id="option1" name="question1" value="option1">
+    <label for="option1">Option 1</label>
+    <input type="radio" id="option2" name="question1" value="option2">
+    <label for="option2">Option 2</label>
+  </fieldset><br>
+
+  <fieldset>
+    <legend>Question 2:</legend>
+    <input type="radio" id="option3" name="question2" value="option3">
+    <label for="option3">Option 1</label>
+    <input type="radio" id="option4" name="question2" value="option4">
+    <label for="option4">Option 2</label>
+  </fieldset><br>
+
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
